@@ -1,3 +1,5 @@
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+
 # terminal.py - interface de terminal para Vikir_mind
 # chat no terminal usando a classe Vikir_mind (mind.py)
 
