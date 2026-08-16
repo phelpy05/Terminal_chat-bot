@@ -1,3 +1,6 @@
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+
+
 # gerencia o contexto da conversa e chama a API do google.
 # importacoes
 import google.generativeai as genai
