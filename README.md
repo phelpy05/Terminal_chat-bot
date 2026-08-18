@@ -83,7 +83,6 @@ chat_bot/
 ├── terminal.py       # Interface de terminal (Rich)
 ├── mind.py           # Motor de IA (Gemini)
 ├── requirements.txt  # Dependências Python
-├── README.md         # Este arquivo
 └── .env              # Variáveis de ambiente (não commitar)
 ```
 
