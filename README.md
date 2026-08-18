@@ -95,14 +95,9 @@ chat_bot/
 - [x] Fatiamento de respostas múltiplas
 - [x] Configuração via `.env`
 
-### Em desenvolvimento
-- [ ] Sistema de memória e contexto maior
-- [ ] Persistência de histórico entre sessões
-- [ ] Logs de sessão
-
 ## Status
 
-EM DESENVOLVIMENTO ATIVO.
+Parado.
 
 ## Contribuição
 
