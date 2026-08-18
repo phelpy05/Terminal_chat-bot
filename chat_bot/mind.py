@@ -12,7 +12,7 @@ import sys
 load_dotenv()
 chave_api = os.getenv('GEMINI_API_KEY')
 if not chave_api:
-    raise ValueError('Chave API nao encontrada no arquivo .env!')
+    raise ValueError('Chave API não encontrada no arquivo .env!')
     sys.exit(1)
 
 # conf da api
@@ -22,8 +22,8 @@ genai.configure(api_key=chave_api)
 class Vikir_mind:
     def __init__(self):
         self.instrucao_sistema = """
-        Seu nome e Vikir, uma IA assistente avancada.
-        Sua personalidade e prestativa, inteligente e levemente sarcastica.
+        Seu nome é Vikir, uma IA assistente avançada.
+        Sua personalidade é prestativa, inteligente e levemente sarcastica.
         deve responder de forma clara e objetiva.
         """
 
@@ -63,7 +63,7 @@ class Vikir_mind:
         # Tratamento de falha
         except Exception as e:
             print(f'Ocorreu um erro ao chamar a API!')
-            return f'Vikir: deu um erro inesperado. Tenta de novo em instantes.'
+            return f'Vikir: deu um erro inesperado. Tente de novo em instantes.'
 
         # Garantir que a resposta e um texto limpo
 
