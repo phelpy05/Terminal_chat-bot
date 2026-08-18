@@ -127,7 +127,7 @@ def main():
         except Exception as e:
             console.print(f'\n[red]Erro: {e}[/red]')
             console.print(
-                '[dim]Tente novamente ou usa /sair para sair.[/dim]'
+                '[dim]Tente novamente ou use /sair para sair.[/dim]'
             )
             continue
 
